@@ -1,0 +1,585 @@
+body {
+    padding: 0;
+    margin-top: 6px;
+    font-family: 'Barlow', 'Regular';
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+    min-height: 750px;
+}
+/* #parent {
+margin-top: -43px ;
+} */
+.Network-txt {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0 9%;
+    background: #fff;
+    margin: -38px auto 38px auto;
+    display: inline-block;
+}
+.col-12.second {
+    text-align: center;
+    border: 1px solid #000;
+    margin: 30px auto;
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.login-sec {
+    padding: 20px;
+}
+.signup-sec {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+.signup-sec a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+.authentic div {
+    margin-bottom: 10px;
+}
+.authentic a {
+    text-decoration: none;
+    color: white;
+    
+    /* background-image: url(./Images/Rectangle.png); */
+    padding: 10px 50px;
+    border-radius: 38px;
+    display: inline-block;
+    font-size: 13px;
+    box-shadow: -1px -5px 3px 0 #172e79;
+}
+
+.signup-sec a {
+    float: right;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #fff !important;
+}
+a:hover {
+    color: #fff;
+}
+.traditonal-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+.authentic {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+input{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #bdc3c7; /* Garis bawah input */
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #ecf0f1;
+  outline: none;
+  transition: border-bottom 0.3s;
+}
+
+::placeholder {
+    color: #fff;
+    font-size: 14px;
+}
+.signup-form {
+    padding: 20px;
+}
+label {
+    color: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.terms-sec {
+    display: inline-flex;
+    gap: 10px;
+    padding-left:9px;
+}
+.Continue {
+    background-color: #EC1C24;
+    width: 180px;
+    height: 48px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.button-cont {
+    padding: 20px;
+    color: #fff;
+}
+
+.way-sec {
+color: #fff;
+text-align: center;
+}
+
+.terms-sec p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.last-sec p {
+    color: #fff;
+    text-align: center;
+    line-height: 0;
+}
+.last-sec {
+    margin-top:23px;
+    margin-bottom:2rem;
+}
+
+#one {
+    width: 140px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.powers-txt {
+    font-size: 15px;
+    width: 369px;
+    line-height: 30px;
+    text-align: center;
+    color: #000;
+}
+
+img.icon-google {
+    position: absolute;
+    top: 11rem;
+    left: 6rem;
+}
+img.icon-facebook {
+    position: absolute;
+    top: 11rem;
+    right: 22rem;
+}
+.logo {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid #EC1C24;
+    width: 110%;
+    border-color: #EC1C24;
+    height: 5px;
+    background-color: #EC1C24;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+}
+
+.signin {
+    background-color: #EC1C24;
+}
+
+.terms-sec a {
+    text-decoration: underline;
+}
+
+
+ /* New css starts here   */
+
+ .container.body {
+    position: relative;
+}
+.back_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.back_img img {
+    object-fit: contain;
+}
+.row.mn-sec {
+    height: 779px;
+    position: relative;
+}
+.row.mn-sec > div {
+    height: 100%;
+}
+.powers-txt {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 5%;
+    background: #fff;
+    margin: 38px auto -62px auto;
+    display: inline-block;
+}
+.col-12.second .row {
+    margin: 10px 0;
+}
+.login-sec {
+    background: #00165ca6;
+     height: 796px; 
+}
+.signup-sec > span {
+    border-radius: 25px;
+    padding: 0px 30px;
+}
+.signin {
+    background-color: #EC1C24;
+    position: relative;
+    right: -37px;
+}
+span.signup {
+    background:#E9E9E9;
+}
+span.signup a {
+    color: #000 !important;
+}
+.container.body:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 779px;
+    background: #00165c;
+}
+.row .firstlogosec{
+    display: flex;
+    align-items: center;
+}
+.row .secondlogosec{
+    display: flex;
+    align-items: center;
+}
+.row .thirdlogosec{
+    display: flex;
+    align-items: center;
+}
+.elipse {
+  position: relative;
+  left: 20px;
+}
+
+#Passwordfeature{
+    display: none;
+}
+#signinbutton{
+    display: none;
+}
+#mysignup {
+    display: none;
+    margin-top:30px;
+}
+
+h4 {
+    color: #fff !important;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.forgpass{
+    position: absolute;
+    right: 8%;
+    top: 79%;
+    text-decoration: none !important;
+}
+
+.changeemail{
+    position: absolute;
+    right:0px;
+}
+
+#otpsection {
+    display: none;
+}
+
+#resendotp{
+    position: absolute;
+    right: 45px;
+    top: 257px;
+    text-decoration: none !important;
+}
+#otpchange {
+    position: absolute;
+    right: 322px;
+    top: 219px;
+    text-decoration: none !important;
+}
+
+#Passwordfeature {
+    display: none;
+}
+#signinbutton {
+    display: none;
+}
+
+.togglePassword {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 35px; 
+    font-size: 18px;
+    color: #fff;
+}
+
+.password-container {
+    position: relative;
+}
+
+span#toggleSignUpPassword {
+    position: relative;
+    top: -62%;
+    float: right;
+}
+
+span#toggleSignInPassword {
+    right: 9%;
+    top: 36%;
+    max-width: 30px;
+}
+
+/* 14 august  */
+span#editchange {
+    position: relative;
+    right: 200px;
+}
+
+span#editchangee {
+    position: relative;
+    right: 277px;
+    top: 29px;
+}
+
+#forgeticon {
+    max-width: 27px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding-top: 0px;
+    margin-top: 5rem;
+}
+
+
+.password-input-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.password-input-group input {
+    flex: 1; 
+    border-radius: 4px;
+    padding-right: 40px; 
+}
+
+.password-input-group span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    color: #666; 
+}
+
+.password-input-group input {
+    padding-right: 30px;
+}
+
+div#pic img {
+    width: 140px;
+    height: 100px;
+    object-fit: contain;
+    border: 1px solid;
+}
+
+/* Responsive code */
+
+@media(max-width:1200px){
+    .authentic {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 10px;
+        margin: 0 -10px;
+    }
+    img.icon-google {
+        position: absolute;
+        top: 11rem;
+        left: 4rem;
+    }
+    img.icon-facebook {
+        position: absolute;
+        top: 11rem;
+        right: 20rem;
+    }
+
+    /* #one{
+        width: 100px;
+    } */
+    div#pic img {
+        width: 110px;
+        height: 100px;
+        object-fit: contain;
+        border: 1px solid;
+    }
+
+}
+
+@media (max-width:991px){
+    body{
+        overflow-y: auto;
+    }
+    .row.mn-sec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container.body:before {
+        width: 100%;
+    }
+    .border{
+       width: 100%;
+    }
+    .first{
+        margin-top: 3%;
+    }
+    #one{
+        width: 100%;
+    }
+    .login-sec {
+        background: unset;
+        height: 796px !important;
+    }
+    .row.mn-sec {
+        height: auto;
+    }
+    div#pic img {
+        width: 180px;
+    }
+    .border{
+        bottom: -22px;
+    }
+}
+
+@media (max-width:769px){
+    .parent{
+        width: 100%;
+    }
+    .back_img {
+        display: none;
+    }
+    .Continue {
+        width: 128px;
+        height: 39px;
+        
+    }
+    span#editchange {
+        position: relative;
+        right: 0px;
+        max-width: 50px;
+    }
+    #otpchange {
+        position: absolute;
+        right: 50px;
+        top: 219px;
+        text-decoration: none !important;
+        max-width: 50px;
+    }
+
+    .row .firstlogosec , .row .secondlogosec , .row .thirdlogosec {
+        display: flex;
+       flex-flow: nowrap;
+       flex-direction: column;
+      gap: 40px;
+    }
+    div#pic img{
+        width: 260px;
+        height: 120px;
+   }
+
+
+}
+
+@media (max-width:480px){
+    .powers-txt{
+        width: 100%;
+    }
+    .last-sec p {
+        line-height: 1;
+    }
+}
+
+@media (max-width:485px){
+    img.icon-google{
+        position: relative;
+        top: 0;
+    }
+    img.icon-facebook {
+        position: relative;
+        top: 0;
+        right: -33px;
+    }
+
+    .authentic{
+        display: grid;
+        justify-content: left;
+        gap: 14px;
+    }
+    #fb{
+        margin-left: 10px;
+    }
+    
+    #otpchange {
+        position: absolute;
+        right: 50px;
+        top: 285px;
+        text-decoration: none !important;
+        max-width: 50px;
+    }
+    #resendotp {
+        position: absolute;
+        right: 45px;
+        top: 321px;
+        text-decoration: none !important;
+    }
+
+
+}
+@media (max-width:425px){
+    span#editchange {
+        position: relative;
+        right: 24rem;
+        max-width: 50px;
+        top: -3rem;
+    }
+    .changeemail {
+        position: relative;
+        right: -15rem;
+    }
+    .forgpass {
+        position: absolute;
+        right: 0;
+        top: 79%;
+        text-decoration: none !important;
+    }
+    .gofb {
+        margin-bottom: 3rem;
+    }
+    label#idea {
+        padding-top: 2rem;
+    }
+    .logo img {
+        width: 200px;
+
+    }
+    .col-12.second .row {
+        margin: -50px 0;
+    }
+
+}
+
